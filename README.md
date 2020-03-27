@@ -19,3 +19,7 @@ belongs_to :genre
 belongs_to :song
 genre_id
 song_id
+
+
+To do:
+make new form that associates song with artist

@@ -1,0 +1,8 @@
+<%= form_for(@song) do |f| %>
+    <%= select_artist(@song) %>
+ 
+     <%= f.label :title %>
+     <%= f.text_field :title %>
+ 
+     <%= f.submit %>
+ <% end %>

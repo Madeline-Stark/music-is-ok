@@ -1,1 +1,4 @@
-<%= @song.title %>
+<%= @song.title %> <br>
+<%= @song.artist.name %>
+<br>
+<%= link_to "Edit song", edit_song_path(@song) %>
